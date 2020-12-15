@@ -17,7 +17,7 @@ public class MovieRepositoryImpl implements  MovieRepository{
         listaMovies.add(new MovieDto.Builder().movieId(2).title("Ja, robot").year(2004).image("https://fwcdn.pl/fpo/54/92/95492/7521206.6.jpg").build());
         listaMovies.add(new MovieDto.Builder().movieId(3).title("Kod nieśmiertelności").year(2011).image("https://fwcdn.pl/fpo/89/67/418967/7370853.6.jpg").build());
         listaMovies.add(new MovieDto.Builder().movieId(4).title("Ex Machina").year(2015).image("https://fwcdn.pl/fpo/64/19/686419/7688121.6.jpg").build());
-    return listaMovies;
+        return listaMovies;
     }
 
     @Override
